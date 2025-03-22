@@ -1,0 +1,4 @@
+h:\DADY\raktar\Konyvtar\;raktar\Konyvtar
+h:\DADY\rend\rend\;rend\rend
+e:\felhasznalok\dady\sajat_programok\_ini_\;sajat_programok\_ini_
+e:\felhasznalok\dady\sajat_programok\mentes\;sajat_programok\mentes

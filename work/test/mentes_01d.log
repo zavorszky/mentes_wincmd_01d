@@ -1,0 +1,156 @@
+Active code page: 852
+**********************************
+. MentÇs (01d)
+.
+. Batch Åzemm¢d:1
+. Futhat a 7z:1, Futhat az RMDIR:0
+. Mentendã kînyvt†rak file-ja:h:\DADY\rend\konyvtarak\Projektek\mentes_wincmd_240904_1338\01d\work\test\t_3.txt
+.
+. XCOPY Munkakînyvt†r:C:\Users\dady\AppData\Local\Temp\mentes_01d
+. XCOPY cÇlkînyvt†r:C:\Users\dady\AppData\Local\Temp\mentes_01d\20250322_203800_0
+. XCOPY kapcsol¢k:/E /Y /M
+. ATTRIB kapcsol¢k:/S /D
+. 7z parancsok:a
+. 7z kapcsol¢k:-bt -bd -r
+. 7z cÇl teljes archi°v file:i:\20250322_203800_0
+.
+. MentÇs t°pusa: 0, Alap mentÇs
+**********************************
+.
+. Mentendã kînyvt†rak îsszegy˚jtÇse.
+. KezdÇs 20:38:00,37
+.
+[1] 20:38:00,49 h:\DADY\raktar\Konyvtar\ raktar\Konyvtar
+.
+. Archive attrib£tum be†ll°t†sa (ATTRIB).
+.
+. M†sol†s munkaterÅletre (XCOPY).
+H:\DADY\raktar\Konyvtar\konyvek\Tanuljunk_meg_programozni_Python_nyelven--Gerard_Swinnen--250224_1841.pdf
+H:\DADY\raktar\Konyvtar\konyvek\_konyvek.ods
+H:\DADY\raktar\Konyvtar\konyvek\Python_utikalauz_stopposoknak-A_projekt_struktur†l†sa--Anonimus--250224_1842.pdf
+H:\DADY\raktar\Konyvtar\konyvek\How_XSLT_Works--Evan_Lenz--250318_1517.pdf
+H:\DADY\raktar\Konyvtar\konyvek\XQuery_Tutorial--Peter_Fankhauser--250318_1526.pdf
+H:\DADY\raktar\Konyvtar\konyvek\www_w3c_hu_forditasok_XML_10_pontban.pdf
+H:\DADY\raktar\Konyvtar\konyvek\XML_10_pontban--www_w3c_hu--250318_1538.pdf
+H:\DADY\raktar\Konyvtar\konyvek\JAVA_SE6_alapozo--Balogh_Tamas-Susan_Zoltan--250318_1557.pdf
+H:\DADY\raktar\Konyvtar\konyvek\Adatkezelesi_muveletek_az_XML_nyelvben--Anonimus--250318_1607.pdf
+H:\DADY\raktar\Konyvtar\konyvek\XQuery--Csubak_Daniel--250318_1614.pdf
+H:\DADY\raktar\Konyvtar\konyvek\XQuery_Sequences--WIKIBOOKS--250318_1622.pdf
+H:\DADY\raktar\Konyvtar\konyvek\Az_SSH_mukodese--Gazdag_Viktor--250318_1633.pdf
+H:\DADY\raktar\Konyvtar\konyvek\Informacios_Rendszerek__Utemezesi_Algoritmusok--Silve_Raid--250318_1640.pdf
+H:\DADY\raktar\Konyvtar\konyvek\XQuery_quick_guide--TUTORIALSPOINT--250318_1711.pdf
+14 File(s) copied
+.
+[2] 20:38:00,68 h:\DADY\rend\rend\ rend\rend
+.
+. Archive attrib£tum be†ll°t†sa (ATTRIB).
+.
+. M†sol†s munkaterÅletre (XCOPY).
+H:\DADY\rend\rend\Helyszinek.ods
+H:\DADY\rend\rend\jegyzetek_2024.txt
+H:\DADY\rend\rend\Rend.odt
+H:\DADY\rend\rend\rend.odg
+H:\DADY\rend\rend\arch\1\feladatok_2023.ods
+H:\DADY\rend\rend\arch\1\feladatok_2024.ods
+H:\DADY\rend\rend\arch\1\Rend_v01.00.odt
+H:\DADY\rend\rend\arch\1\Rend_v02.00.odt
+H:\DADY\rend\rend\arch\2\feladatok_2024b.xls
+H:\DADY\rend\rend\arch\2\feladatok_2024b.ods
+H:\DADY\rend\rend\arch\2\jegyzetek_2024.txt
+H:\DADY\rend\rend\arch\2\Rend_v02b.odt
+H:\DADY\rend\rend\arch\2\helyszin.xsd
+H:\DADY\rend\rend\arch\2\Helyszinek.ods
+H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\adatbazis_kezeles.txt
+H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\alkalmazas.txt
+H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\CSS.txt
+H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\esemeny.txt
+H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\HTML.txt
+H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\JavaScript.txt
+H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\kiserlet.txt
+H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\python.txt
+H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\sqlite.txt
+H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\tanfolyam.txt
+H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\tema.txt
+H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\win_cmd.txt
+H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\vstudio_code.txt
+H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\shiny.txt
+H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\openoffice.txt
+H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\npm.txt
+H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\git.txt
+H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\nyomtato.txt
+H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\toner.txt
+H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\legkondi.txt
+H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\csorsz.txt
+35 File(s) copied
+.
+[3] 20:38:00,93 e:\felhasznalok\dady\sajat_programok\_ini_\ sajat_programok\_ini_
+.
+. Archive attrib£tum be†ll°t†sa (ATTRIB).
+.
+. M†sol†s munkaterÅletre (XCOPY).
+E:\felhasznalok\dady\sajat_programok\_ini_\set_ffn_7z.cmd
+E:\felhasznalok\dady\sajat_programok\_ini_\set_ffn_dbbrowser4sqlite.cmd
+E:\felhasznalok\dady\sajat_programok\_ini_\set_ffn_node_js.cmd
+E:\felhasznalok\dady\sajat_programok\_ini_\set_ffn_notepad_plus_plus.cmd
+E:\felhasznalok\dady\sajat_programok\_ini_\set_ffn_PS1.cmd
+E:\felhasznalok\dady\sajat_programok\_ini_\set_ffn_sqlite3.cmd
+E:\felhasznalok\dady\sajat_programok\_ini_\__PSScriptIni.ps1
+E:\felhasznalok\dady\sajat_programok\_ini_\__set_ffn_7za.cmd
+8 File(s) copied
+.
+[4] 20:38:01,11 e:\felhasznalok\dady\sajat_programok\mentes\ sajat_programok\mentes
+.
+. Archive attrib£tum be†ll°t†sa (ATTRIB).
+.
+. M†sol†s munkaterÅletre (XCOPY).
+E:\felhasznalok\dady\sajat_programok\mentes\mentes.log parancsikonja.lnk
+E:\felhasznalok\dady\sajat_programok\mentes\00a\mentes.cmd
+E:\felhasznalok\dady\sajat_programok\mentes\00a\mentes_mag.cmd
+E:\felhasznalok\dady\sajat_programok\mentes\01a\mentes.cmd
+E:\felhasznalok\dady\sajat_programok\mentes\01a\mentes_mag.cmd
+E:\felhasznalok\dady\sajat_programok\mentes\01b\mentes.cmd
+E:\felhasznalok\dady\sajat_programok\mentes\01b\mentes_mag.cmd
+E:\felhasznalok\dady\sajat_programok\mentes\01c\mentes.cmd
+E:\felhasznalok\dady\sajat_programok\mentes\01c\mentes.cmd parancsikonja.lnk
+E:\felhasznalok\dady\sajat_programok\mentes\01c\mentes_mag.cmd
+E:\felhasznalok\dady\sajat_programok\mentes\01c\README.md
+E:\felhasznalok\dady\sajat_programok\mentes\01d\7z.txt
+E:\felhasznalok\dady\sajat_programok\mentes\01d\attrib.txt
+E:\felhasznalok\dady\sajat_programok\mentes\01d\t_2.cmd
+E:\felhasznalok\dady\sajat_programok\mentes\01d\t_par_0.cmd
+E:\felhasznalok\dady\sajat_programok\mentes\01d\t_par_1.cmd
+E:\felhasznalok\dady\sajat_programok\mentes\01d\xcopy.txt
+17 File(s) copied
+.
+. KÇsz 20:38:01,22
+.
+. Tîmîr°tve-mentÇs (7z).
+.
+. KezdÇs 20:38:01,22
+
+7-Zip 24.09 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-11-29
+
+Scanning the drive:
+0 files, 0 bytes
+
+Creating archive: i:\20250322_203800_0.7z
+
+Add new data to archive: 0 files, 0 bytes
+
+
+Files read from disk: 0
+Archive size: 32 bytes (1 KiB)
+Everything is Ok
+
+Kernel  Time =     0.015 =   20%    Cnt:             68 MCycles
+User    Time =     0.000 =    0%    Freq (cnt/ptime):  4390 MHz
+Process Time =     0.015 =   20%    Virtual  Memory =      2 MB
+Global  Time =     0.075 =  100%    Physical Memory =      7 MB
+.
+. KÇsz 20:38:01,31
+.
+. Takar°t†s (RMDIR).
+.
+. Figyelem! Nincs takar°t†s
+.
+. A mentÇs sikeresen vÇgetÇrt
