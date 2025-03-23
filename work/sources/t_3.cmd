@@ -20,7 +20,8 @@ set idobelyeg=%datestamp%_%timestamp%_%1
 
 
 rem -- A win10 TEMP k”nyvt r nak haszn lata (TEMP=C:\Users\dady\AppData\Local\Temp).
-set fdn_munka=%TEMP%\mentes_%verzio%
+rem -- set fdn_munka=%TEMP%\mentes_%verzio%
+set fdn_munka=c:\tmp\mentes_%verzio%
 
 set fdn_cel=%fdn_munka%\%idobelyeg%
 
@@ -169,7 +170,7 @@ if "%futhat_7z%"=="0" (
 
 echo .
 echo . Kezd‚s %time%
-%ffn_7z% %z_parancs% %z_kapcsolok% %ffn_arch_cel% %fdn_arch_forr
+%ffn_7z% %z_parancs% %z_kapcsolok% %ffn_arch_cel% %fdn_arch_forras%
 
 if errorlevel 1 (
     echo .

@@ -6,21 +6,21 @@ Active code page: 852
 . Futhat a 7z:1, Futhat az RMDIR:0
 . Mentend‹ k”nyvt rak file-ja:h:\DADY\rend\konyvtarak\Projektek\mentes_wincmd_240904_1338\01d\work\test\t_3.txt
 .
-. XCOPY Munkak”nyvt r:C:\Users\dady\AppData\Local\Temp\mentes_01d
-. XCOPY c‚lk”nyvt r:C:\Users\dady\AppData\Local\Temp\mentes_01d\20250322_203800_0
+. XCOPY Munkak”nyvt r:c:\tmp\mentes_01d
+. XCOPY c‚lk”nyvt r:c:\tmp\mentes_01d\20250323_214509_0
 . XCOPY kapcsol¢k:/E /Y /M
 . ATTRIB kapcsol¢k:/S /D
 . 7z parancsok:a
 . 7z kapcsol¢k:-bt -bd -r
-. 7z c‚l teljes archi¡v file:i:\20250322_203800_0
+. 7z c‚l teljes archi¡v file:i:\20250323_214509_0
 .
 . Ment‚s t¡pusa: 0, Alap ment‚s
 **********************************
 .
 . Mentend‹ k”nyvt rak ”sszegyûjt‚se.
-. Kezd‚s 20:38:00,37
+. Kezd‚s 21:45:09,85
 .
-[1] 20:38:00,49 h:\DADY\raktar\Konyvtar\ raktar\Konyvtar
+[1] 21:45:09,97 h:\DADY\raktar\Konyvtar\ raktar\Konyvtar
 .
 . Archive attrib£tum be ll¡t sa (ATTRIB).
 .
@@ -41,7 +41,7 @@ H:\DADY\raktar\Konyvtar\konyvek\Informacios_Rendszerek__Utemezesi_Algoritmusok--
 H:\DADY\raktar\Konyvtar\konyvek\XQuery_quick_guide--TUTORIALSPOINT--250318_1711.pdf
 14 File(s) copied
 .
-[2] 20:38:00,68 h:\DADY\rend\rend\ rend\rend
+[2] 21:45:10,40 h:\DADY\rend\rend\ rend\rend
 .
 . Archive attrib£tum be ll¡t sa (ATTRIB).
 .
@@ -83,7 +83,7 @@ H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\legkondi.tx
 H:\DADY\rend\rend\000000_0000_feladat_sablon_konyvtar\_tulajdonsagok\csorsz.txt
 35 File(s) copied
 .
-[3] 20:38:00,93 e:\felhasznalok\dady\sajat_programok\_ini_\ sajat_programok\_ini_
+[3] 21:45:10,94 e:\felhasznalok\dady\sajat_programok\_ini_\ sajat_programok\_ini_
 .
 . Archive attrib£tum be ll¡t sa (ATTRIB).
 .
@@ -98,7 +98,7 @@ E:\felhasznalok\dady\sajat_programok\_ini_\__PSScriptIni.ps1
 E:\felhasznalok\dady\sajat_programok\_ini_\__set_ffn_7za.cmd
 8 File(s) copied
 .
-[4] 20:38:01,11 e:\felhasznalok\dady\sajat_programok\mentes\ sajat_programok\mentes
+[4] 21:45:11,09 e:\felhasznalok\dady\sajat_programok\mentes\ sajat_programok\mentes
 .
 . Archive attrib£tum be ll¡t sa (ATTRIB).
 .
@@ -122,32 +122,32 @@ E:\felhasznalok\dady\sajat_programok\mentes\01d\t_par_1.cmd
 E:\felhasznalok\dady\sajat_programok\mentes\01d\xcopy.txt
 17 File(s) copied
 .
-. K‚sz 20:38:01,22
+. K‚sz 21:45:11,46
 .
 . T”m”r¡tve-ment‚s (7z).
 .
-. Kezd‚s 20:38:01,22
+. Kezd‚s 21:45:11,47
 
 7-Zip 24.09 (x64) : Copyright (c) 1999-2024 Igor Pavlov : 2024-11-29
 
 Scanning the drive:
-0 files, 0 bytes
+19 folders, 74 files, 11781578 bytes (12 MiB)
 
-Creating archive: i:\20250322_203800_0.7z
+Creating archive: i:\20250323_214509_0.7z
 
-Add new data to archive: 0 files, 0 bytes
+Add new data to archive: 19 folders, 74 files, 11781578 bytes (12 MiB)
 
 
-Files read from disk: 0
-Archive size: 32 bytes (1 KiB)
+Files read from disk: 74
+Archive size: 9950523 bytes (9718 KiB)
 Everything is Ok
 
-Kernel  Time =     0.015 =   20%    Cnt:             68 MCycles
-User    Time =     0.000 =    0%    Freq (cnt/ptime):  4390 MHz
-Process Time =     0.015 =   20%    Virtual  Memory =      2 MB
-Global  Time =     0.075 =  100%    Physical Memory =      7 MB
+Kernel  Time =     0.109 =    2%    Cnt:           6593 MCycles
+User    Time =     2.375 =   48%    Freq (cnt/ptime):  2653 MHz
+Process Time =     2.484 =   50%    Virtual  Memory =    149 MB
+Global  Time =     4.902 =  100%    Physical Memory =    146 MB
 .
-. K‚sz 20:38:01,31
+. K‚sz 21:45:16,40
 .
 . Takar¡t s (RMDIR).
 .
