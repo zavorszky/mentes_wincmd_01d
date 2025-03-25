@@ -16,7 +16,7 @@ törli, ugyanis a Windows a file-ok módosításakor az archív bitet érvényes
 Önmagában nem jó mert nem kezeli a forrás file-ok archive bit-jét.
 
 2. XCOPY + 7z.exe<br>
-A Windows XCOPY és a 7z.exe kombinálásával megoldható a probléma.
+    A Windows XCOPY és a 7z.exe kombinálásával megoldható a probléma.
     1. Teljes mentés .../00000000_000000_0/<br>
         Minden file mentés
         Archív bitek törlése
@@ -36,14 +36,32 @@ XCOPY
 #### Problémák
 
 * Az XCOPY megszakad, mert elfogyasztja a memóriát, ha túl sok<br>
-    file van a mentendő könyvtárban
-    * Megoldás: A könyvtárat több darabra kell bontani
+    file van a mentendő könyvtárban.
+    * Megoldás: A könyvtárat több darabra kell bontani.
 
-* Az XCOPY megszakad, mert túl hosszú a másolandó fire neve vagy<br>
-    elérési útvonala
+* Az XCOPY megszakad, mert túl hosszú a másolandó file neve vagy<br>
+    elérési útvonala.
     * Megoldás: még nem tudom...
 
+## Használat (hívás)
+
+```cmd
+call mentés_tipus mentendő_könyvtárak_állománya munka_gyökérkönyvtár mentés_célkönyvtár
+```
+Ahol a paraméterek:
+* mentés_tipus : 0|1
+* mentendő_könyvtárak_állománya : egy szöveg állomány, amely soronként egy mentendő  
+  könyvtárat határoz meg.
+* munka_gyökérkönyvtár : Egy könyvtár, ahova a beállított archiv bittel rendelkező  
+  file-okat másolja a szkript (XCOPY-val).
+
+A Mentendőkönyvtárak neveit tartalmazó szöveg állomány felépítése (Extended Backus–Naur form : EBNF):  
+&nbsp;&nbsp; állomány = sor , { sor }  
+&nbsp;&nbsp; sor = mendendő_könyvtár_elérési_útvonala , ";" , a_könyvtár_alkönyvtár_neve_az_archívumban  
+&nbsp;&nbsp; mendendő_könyvtár_elérési_útvonala = meghajtó_betűjel , ":\" , könyvtár_név , { "\" , knyvtár_név} 
+
 ## Verzió
+
 01d
 
 ## Fejlesztő
