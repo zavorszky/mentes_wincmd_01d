@@ -90,7 +90,7 @@ echo . 7z parancsok: %z_parancs%
 echo . 7z kapcsol¢k: %z_kapcsolok%
 echo . 7z c‚l teljes archi¡v file: %ffn_arch_cel%
 echo **********************************
-goto cim_hiba_nincs_parameter
+
 
 
 set mentes_tipus=%1
@@ -231,26 +231,35 @@ goto cim_befejezo_uzenet
 
 :cim_hiba_hianyzo_parameterek
 echo .
-echo . A szkript ind¡t s hoz hi nyik egy vagy t”bb param‚ter.
-echo .
-echo . Ind¡t s:
-echo . \> mentes_%verzio% ment‚s_tipus mentend‹_k”nyvt rak_ llom nya munka_gy”k‚rk”nyvt r ment‚s_c‚lk”nyvt r
-echo .      ment‚s_tipus : 0 vagy 1.
-goto cim_vege
+echo . Hiba! A szkript ind¡t s hoz hi nyik egy vagy t”bb param‚ter.
+goto cim_intitasi_javaslat
 
 :cim_hiba_elso_parameter
 echo .
-echo . Az els‹ ind¡t si param‚ter csak 0 vagy 1 lehet.
-goto cim_vege
+echo . Hiba! Az els‹ ind¡t si param‚ter csak 0 vagy 1 lehet.
+goto cim_intitasi_javaslat
 
 :cim_hiba_nem_letezo_file
 echo .
-echo . A m sodik ind¡t si param‚ter egy l‚tez‹  llom ny kell hogy legyen.
-goto cim_vege
+echo . Hiba! A m sodik ind¡t si param‚ter egy l‚tez‹  llom ny kell hogy legyen.
+goto cim_intitasi_javaslat
 
 :cim_hiba_nem_letezo_konyvtar
 echo .
-echo . A harmadik ind¡t si param‚ter egy l‚tez‹ k”nyvt r kell hogy legyen.
+echo . Hiba! A harmadik ind¡t si param‚ter egy l‚tez‹ k”nyvt r kell hogy legyen.
+goto cim_intitasi_javaslat
+
+:cim_intitasi_javaslat
+echo .
+echo . Ind¡t s:
+rem -- echo . mentes_%verzio% ment‚s_tipus mentend‹_k”nyvt rak_ llom nya munka_gy”k‚rk”nyvt r ment‚s_c‚lk”nyvt r
+rem -- echo .      ment‚s_tipus : 0 vagy 1.
+echo . mentes_%verzio% p1 p2 p3 p4
+rem -- echo .   p1 : ment‚s_tipus, 0|1
+echo .   p1 : ment‚s tipus, 0 vagy 1
+echo .   p2 : mentend‹ k”nyvt rak  llom nya (ell. l‚tez‹  llom ny)
+echo .   p3 : munka gy”k‚rk”nyvt r (ell. l‚tez‹ k”nyvt r)
+echo .   p4 : ment‚s c‚lk”nyvt r
 goto cim_vege
 
 

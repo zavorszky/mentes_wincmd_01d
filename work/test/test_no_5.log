@@ -1,0 +1,18 @@
+Active code page: 852
+**********************************
+. Ment‚s (01d)
+. Ment‚s t¡pusa: 0, Alap ment‚s
+. Mentend‹ k”nyvt rakat tartalmaz¢ file : e:\felhasznalok\dady\work_in_progress\mentes_wincmd_240904_1338\01d\work\test\t_3.txt
+. Munka k”nyvt r gyokere (XCOPY): c:\tmp\mentes_01d\
+. Ment‚s c‚lk”nyvt ra: i:
+.
+. [Batch zemm¢d: 1] [Futhat a 7z:1] [Futhat az RMDIR:0]
+.
+. XCOPY Munkak”nyvt r: c:\tmp\mentes_01d\\mentes_01d
+. XCOPY c‚lk”nyvt r: c:\tmp\mentes_01d\\mentes_01d\20250328_001018_0
+. XCOPY kapcsol¢k: /E /Y /M
+. ATTRIB kapcsol¢k: /S /D
+. 7z parancsok: a
+. 7z kapcsol¢k: -bt -bd -r
+. 7z c‚l teljes archi¡v file: i:\20250328_001018_0
+**********************************

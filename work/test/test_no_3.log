@@ -1,0 +1,10 @@
+Active code page: 852
+.
+. Hiba! A szkript ind¡t s hoz hi nyik egy vagy t”bb param‚ter.
+.
+. Ind¡t s:
+. mentes_01d p1 p2 p3 p4
+.   p1 : ment‚s tipus, 0 vagy 1
+.   p2 : mentend‹ k”nyvt rak  llom nya (ell. l‚tez‹  llom ny)
+.   p3 : munka gy”k‚rk”nyvt r (ell. l‚tez‹ k”nyvt r)
+.   p4 : ment‚s c‚lk”nyvt r
